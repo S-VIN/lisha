@@ -13,7 +13,7 @@ number_of_classes = list()
 for item in groups:
     number_of_classes.append(int(input('Type the number of classes ' + item + ' group. \n')))
 
-# Выводем перебор по группам и номерам занятий.
+# Выводим перебор по группам и номерам занятий.
 for i in range(len(groups)):
     for j in range(int(number_of_classes[i])):
         group_string = groups[i] + '-' + str(j + 1) + '-' + str(year)
